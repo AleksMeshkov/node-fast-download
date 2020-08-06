@@ -1,19 +1,58 @@
 {
-  "name": "fast-download",
-  "version": "0.3.7",
+  "_from": "git+https://github.com/AleksMeshkov/node-fast-download.git",
+  "_id": "fast-download@0.3.7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/fast-download",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "fast-download@git+https://github.com/AleksMeshkov/node-fast-download.git",
+    "name": "fast-download",
+    "escapedName": "fast-download",
+    "rawSpec": "git+https://github.com/AleksMeshkov/node-fast-download.git",
+    "saveSpec": "git+https://github.com/AleksMeshkov/node-fast-download.git",
+    "fetchSpec": "https://github.com/AleksMeshkov/node-fast-download.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/AleksMeshkov/node-fast-download.git#339f6876bc07c702ef0c9c514156f3fa1c293522",
+  "_spec": "fast-download@git+https://github.com/AleksMeshkov/node-fast-download.git",
+  "_where": "/Users/alexey/Devel/slate/ssd-im-new",
+  "author": {
+    "name": "Matthew Francis Brunetti"
+  },
+  "bugs": {
+    "url": "https://github.com/zenflow/node-fast-download/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^3.2.0",
+    "charm": "^1.0.2",
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "lodash": "^4.17.19",
+    "request": "^2.88.2"
+  },
+  "deprecated": false,
   "description": "accelerated (multiple connections) http download stream",
-  "main": "lib/FastDownload.js",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "from2": "^2.3.0",
+    "get-port": "^3.1.0",
+    "hasha": "^3.0.0",
+    "p-event": "^1.3.0",
+    "prettier-eslint-cli": "^4.1.1",
+    "standard": "^12.0.1",
+    "tape": "^4.8.0",
+    "tempy": "^0.1.0"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "scripts": {
-    "test": "eslint \"**/*.js\" && node test/basic.js",
-    "format": "prettier-eslint --write \"**/*.js\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/zenflow/node-fast-download"
-  },
+  "homepage": "https://github.com/zenflow/node-fast-download",
   "keywords": [
     "fast",
     "speedy",
@@ -27,29 +66,16 @@
     "stream",
     "streaming"
   ],
-  "author": "Matthew Francis Brunetti",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zenflow/node-fast-download/issues"
+  "main": "lib/FastDownload.js",
+  "name": "fast-download",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zenflow/node-fast-download.git"
   },
-  "homepage": "https://github.com/zenflow/node-fast-download",
-  "dependencies": {
-    "async": "^0.8.0",
-    "charm": "^0.2.0",
-    "colors": "^0.6.2",
-    "commander": "^2.2.0",
-    "lodash": "^4.17.11",
-    "request": "^2.88.0"
+  "scripts": {
+    "format": "prettier-eslint --write \"**/*.js\"",
+    "test": "eslint \"**/*.js\" && node test/basic.js"
   },
-  "devDependencies": {
-    "express": "^4.16.4",
-    "from2": "^2.3.0",
-    "get-port": "^3.1.0",
-    "hasha": "^3.0.0",
-    "p-event": "^1.3.0",
-    "prettier-eslint-cli": "^4.1.1",
-    "standard": "^12.0.1",
-    "tape": "^4.8.0",
-    "tempy": "^0.1.0"
-  }
+  "version": "0.3.8"
 }
